@@ -1,0 +1,36 @@
+@media(max-width: 1060px) {
+    header, .hero, .about, .choice-menu, .order-body, .section-blog, .footer, .footer-last-line, .registration, .section-menu{
+        max-width: 90% !important;
+        margin-left: 5%;
+    }
+    
+
+}
+@media(max-width: 860px){
+    .menu-item{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}
+
+@media(max-width: 600px){
+    .food-menu{
+        margin: 2rem 0;
+        position: static;
+        top: 0;
+    }
+    .food-menu ul{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        background-color: white;
+    }
+    .menu-item{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    
+}
