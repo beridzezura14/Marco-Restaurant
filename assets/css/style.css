@@ -14,7 +14,7 @@ body{
 .first-view{
     padding-top: 20px;
     height: 703px;
-    background: url(/assets/img/hero-bg.jpg) center no-repeat;
+    background: url(../img/hero-bg.jpg) center no-repeat;
     color: #fff;
     background-size: cover;
     width: 100%;
@@ -213,7 +213,7 @@ header{
     margin: 4rem 0;
     padding-top: 20px;
     height: 600px;
-    background: linear-gradient(#13133ace, #000000d6), url(/assets/img/reservation-bg.jpg) center no-repeat;
+    background: linear-gradient(#13133ace, #000000d6), url(../img/reservation-bg.jpg) center no-repeat;
     color: #fff;
     background-size: cover;
     background-attachment: fixed;
