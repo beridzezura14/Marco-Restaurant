@@ -1,3 +1,6 @@
+body{
+    background-color:whitesmoke;
+}
 .section-menu{
     max-width: 1050px;
     margin: auto;
@@ -38,20 +41,30 @@
 }
 .menu-item{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+.item{
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+}
+.item div{
+    margin-left: 10px;
 }
 
 .item img{
-    width: 100%;
+    width: 100px;
     height: auto;
 }
 .item p{
-    background-color: #f42f2c;
-    padding: 5px 20px;
-    margin-top: -5px;
+    /* background-color: #f42f2c; */
+    /* padding: 5px 20px; */
     font-size: 20px;
-    color: #fff;
+    color: #f42f2c  ;
+    width: 100%;
 }
 .item h3{
     margin-top: 10px;
