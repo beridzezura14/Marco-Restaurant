@@ -1,0 +1,136 @@
+body{
+    background-color:whitesmoke;
+}
+
+.page-blog{
+    max-width: 1050px;
+    margin: auto;
+    padding: 4rem 0;
+}
+.blog-row h1{
+    margin: 0 0 2rem 0;
+    font-size: 40px;
+    color: #3b3b3b;
+}
+.blog-item{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    gap: 20px;
+    margin-bottom: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.blog-item h2{
+    font-size: 25px;
+    color: #3b3b3b;
+}
+.blog-item p{
+    line-height: 25px;
+    margin: 10px 0 20px 0;
+}
+
+.blog-item a{
+    padding: 8px 30px;
+    background-color: #f42f2c;
+    color: #fff;
+    transition: 0.5s;
+}
+.blog-item a:hover{
+    box-shadow: 5px 5px 10px #f42f2c;
+}
+
+/* ---------------------------- start own blog page -------------------------- */
+
+.blog-own-page{
+    max-width: 1050px;
+    margin: auto;
+    padding: 4rem 0;
+}
+.blog-bg-photo{
+    
+    background: linear-gradient(#3b3b3ba0, #7d6f6f80), url(../img/reservation-bg.jpg) center;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+}
+
+.describe-blog-next-blog{
+    margin-top: 4rem;
+    display: flex;
+    gap: 20px;
+}
+
+.blog-text{
+    background: #fff;
+    padding: 20px;
+}
+.blog-text h1{
+    color: #3b3b3b;
+    font-size: 40px;
+}
+.blog-text p{
+    margin-top: 40px;
+    line-height: 27px;
+    color: #2b2b2b;
+}
+.next-blog{
+    background: #fff;
+    padding: 20px;
+}
+.next-blog h2{
+    color: #3b3b3b;
+    margin-top: 10px;
+}
+.next-blog p{
+    margin: 10px 0 20px 0;
+}
+.next-blog a{
+    padding: 8px 30px;
+    background-color: #f42f2c;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.next-blog a:hover{
+    box-shadow: 5px 5px 10px #f42f2c;
+}
+.second-blog{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1060px) {
+    .page-blog, .blog-own-page{
+        max-width: 90% !important;
+        margin-left: 5%;
+    }
+}
+@media(max-width: 860px){
+    .blog-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 15px;
+    }
+    .blog-item img{
+        width: 100%;
+    }
+
+
+    .describe-blog-next-blog{
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .next-blog img{
+        width: 100%;
+    }
+}
